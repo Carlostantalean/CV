@@ -14,6 +14,7 @@ h2{
     font-family:'Calibri';
     text-align: left;
     background: #ffffff;
+    white-space: pre-line;
 }
 p{
     background: #4568DC;
