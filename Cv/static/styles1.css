@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto';
+    background: #4568DC;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+h1{
+    font-family: 'Helvetica';
+    text-align:  center;
+}
+h2{
+    font-family:'Calibri';
+    text-align: left;
+    background: #ffffff;
+}
+p{
+    background: #4568DC;
+}
+label{
+    font-family: 'Helvetica';
+}

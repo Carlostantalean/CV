@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto';
+    background: #4568DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background: #ffffff;
+    padding: 0 0 ;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+}
+h1{
+    font-family: 'Helvetica';
+    text-align:  center;
+}
+button{
+    font-family: 'Helvetica';
+}
