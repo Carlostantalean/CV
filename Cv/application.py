@@ -9,6 +9,18 @@ Session(app)
 
 @app.route("/")
 def index():
+    return render_template("LOGINVISTA.HTML")
+    
+@app.route("/REGISTROVISTA.HTML")
+def reg():
+    return render_template("REGISTROVISTA.HTML")
+
+@app.route("/LOGINVISTA.HTML")
+def log():
+    return render_template("LOGINVISTA.HTML")
+    
+@app.route("/pagina.html")
+def pag():
     return render_template("pagina.html")
 
 @app.route("/CV", methods=["GET", "POST"])
@@ -29,4 +41,5 @@ def CV():
         session["notes"].append(note)
 
     return render_template("CV.html", name=name, name2=name2, name3=name3, name4=name4, name5=name5, name6=name6, name7=name7)
+
 
